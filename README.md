@@ -12,7 +12,7 @@
 
 <p><em>Baileys Modified</em></p>
 
-<img src="https://files.catbox.moe/84up1c.jpg" width="300" alt="Cover Banner" />
+<img src="https://files.catbox.moe/ehdrm3.jpg" width="300" alt="Cover Banner" />
 
 </div>
 
@@ -744,7 +744,7 @@ await sock.sendMessage(
             name: 'Hiii', 
             publisher: 'By Itsockchann', 
             description: 'Hello', 
-            cover: Buffer, // Image buffer
+            cover: { url: 'https://example.com/cover.webp' }, // Buffer
             stickers: [{
                 sticker: { url: 'https://example.com/1234kjd.webp' }, 
                 emojis: ['❤'], // optional
